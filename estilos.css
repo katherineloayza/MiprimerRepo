@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    background: rgb(160, 159, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid rgb(40, 51, 19);
+}
+
+header{
+    background: rgb(85, 104, 40);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed;
+
+}
+
+nav{
+    background: rgb(183, 204, 168);
+    height: 50px;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float:left;
+    width: calc(80% - 80px) ;
+    background: rgb(38, 66, 38);
+    min-height: 500px;
+    padding: 40px;
+}
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid #eee;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
+}
+
+aside{
+    float:left;
+    width: calc(20% - 20px);
+    background: rgb(26, 97, 26);
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
